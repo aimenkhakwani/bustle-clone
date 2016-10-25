@@ -1,0 +1,9 @@
+
+<div class="well">
+  <h2>{{article.title}}</h2>
+  <h4>By {{article.author}}</h4>
+  {{update-article article=article update="update"}}
+  <div class="text-right">
+    <button class="btn-delete" {{action 'delete' article}}>(Delete)</button>
+  </div>
+</div>

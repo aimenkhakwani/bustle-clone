@@ -1,6 +1,9 @@
 <h2>The Latest and Greates News Source</h2>
 
-{{new-article saveArticle="saveArticle"}}
+<div class="btn-new">
+  {{#link-to 'admin'}}<button class="btn btn-info btn-lg center-block">Dashboard</button>{{/link-to}}
+</div>
+
 
 <ul>
   {{#each model as |article|}}

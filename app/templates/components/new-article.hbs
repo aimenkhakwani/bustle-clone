@@ -16,5 +16,7 @@
  <button {{action 'saveArticle'}} class="btn btn-default center-block">Save Article</button>
 </form>
 {{else}}
-   <button class="btn btn-info" {{action 'articleFormShow'}}>New Article</button>
+  <div class="btn-new">
+   <button class="btn btn-info center-block btn-lg" {{action 'articleFormShow'}}>New Article</button>
+ </div>
 {{/if}}

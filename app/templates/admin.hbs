@@ -1,0 +1,7 @@
+<h2>Admin Dashboard</h2>
+{{new-article saveArticle="saveArticle"}}
+<ul>
+  {{#each model as |article|}}
+  {{admin-panel article=article update="update" destroyArticle="destroyArticle"}}
+  {{/each}}
+</ul>
