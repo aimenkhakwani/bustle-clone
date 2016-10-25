@@ -1,10 +1,10 @@
 <div class="well">
-  <h2>{{article.title}}</h2>
+  <h2>{{#link-to 'article-display' article.id}}{{article.title}}{{/link-to}}</h2>
   <h4>By {{article.author}}</h4>
   <div class="article">
     <img class="img-responsive center-block" src="{{article.image}}">
   </div>
   <p>
-    {{article.text}}
+    {{article.teaser}}
   </p>
 </div>

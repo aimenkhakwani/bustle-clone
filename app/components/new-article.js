@@ -11,6 +11,7 @@ export default Ember.Component.extend({
         title: this.get('title'),
         author: this.get('author'),
         text: this.get('text'),
+        teaser: this.get('teaser'),
         image: this.get('image')
       };
       this.set('addNewArticle', false);
