@@ -1,0 +1,20 @@
+{{#if addNewArticle}}
+<form class="well">
+  <h3>Add New Article</h3>
+  <div class="form-group">
+    {{input class="form-control" value = title id="title" placeholder="Article Title"}}
+  </div>
+  <div class="form-group">
+    {{input class="form-control" value = author id="author" placeholder="Article Author"}}
+  </div>
+  <div class="form-group">
+    {{input class="form-control" value = image id="image" placeholder="Url for the featured image."}}
+  </div>
+  <div class="form-group">
+  {{input class="form-control" placeholder="Write the article here." value = text id="text"}}
+  </div>
+ <button {{action 'saveArticle'}} class="btn btn-default center-block">Save Article</button>
+</form>
+{{else}}
+   <button class="btn btn-info" {{action 'articleFormShow'}}>New Article</button>
+{{/if}}

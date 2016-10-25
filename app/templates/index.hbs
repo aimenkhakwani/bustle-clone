@@ -1,1 +1,9 @@
-<h2>Bustle News</h2>
+<h2>The Latest and Greates News Source</h2>
+
+{{new-article saveArticle="saveArticle"}}
+
+<ul>
+  {{#each model as |article|}}
+    {{article-tile article=article}}
+  {{/each}}
+</ul>
