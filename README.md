@@ -5,6 +5,7 @@
 #### By _**Aimen Khakwani &amps; Marta Sanchez**_
 
 This web app attempts to mimic the basic functionality of [Bustle](https://www.bustle.com/), a news website. This app displays articles, and has a dashboard page where users can add, edit or delete an article. Uses Ember and Firebase.
+####
 <img alt="Screenshot of the app" src="public/assets/images/screenshot.png">
 
 ## Prerequisites
